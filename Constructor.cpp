@@ -3,7 +3,7 @@ using namespace std;
 class constructor
 {
 public:
-    void Unknown()
+    constructor()
     {
         cout << "Constructor is called" << endl;
     }
@@ -11,6 +11,5 @@ public:
 int main()
 {
     constructor c;
-    c.Unknown();
     return 0;
 }
